@@ -198,5 +198,28 @@
 #     if i % 2 == 0:
 #         print(i)
 
-#
+# Ask the user for a number n and print all prime numbers from 1 to n
+# n = int(input("Enter a number: "))
+# def is_prime(n):
+#     if n <= 1:
+#         return False
+#     if n <= 3:
+#         return True
+#     if n % 2 == 0 or n % 3 == 0:
+#         return False
+#     i = 5
+#     while i * i <= n:
+#         if n % i == 0 or n % (i + 2) == 0:
+#             return False
+#         i += 6
+#     return True
 
+# def print_primes_up_to_n(n):
+#     print(f"Prime numbers from 1 to {n}:")
+#     for i in range(1, n + 1):
+#         if is_prime(i):
+#             print(i, end=" ")
+#     print()
+# print_primes_up_to_n(n)
+
+# 
